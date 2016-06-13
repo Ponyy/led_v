@@ -1,91 +1,566 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=640">
+<html lang="en">
 
-    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
-    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
-    <link rel="stylesheet" href="stylesheets/github-light.css">
+<head>
 
-    <script type="text/javascript" src="javascripts/modernizr.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function () {
-        $('#main_content').headsmart()
-      })
-    </script>
-    <title>Led v by Ponyy</title>
-  </head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-  <body>
-    <a id="forkme_banner" href="https://github.com/Ponyy/led_v">View on GitHub</a>
-    <div class="shell">
-
-      <header>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <h1>Led v</h1>
-            <h2></h2>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-      </header>
-
-      <section id="downloads">
-        <span class="inner">
-          <a href="https://github.com/Ponyy/led_v/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/Ponyy/led_v/tarball/master" class="tgz"><em>download</em> .TGZ</a>
-        </span>
-      </section>
-
-
-      <span class="banner-fix"></span>
-
-
-      <section id="main_content">
-        <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>, select a template crafted by a designer, and publish. After your page is generated, you can check out the new <code>gh-pages</code> branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.</p>
-
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.</p>
-
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Creating pages manually</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://help.github.com/articles/basic-writing-and-formatting-syntax/#mentioning-users-and-teams" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
-      </section>
-
-      <footer>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <p>this project by <a href="https://github.com/Ponyy">Ponyy</a> can be found on <a href="https://github.com/Ponyy/led_v">GitHub</a></p>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-        <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot</p>
-        <span class="octocat"></span>
-      </footer>
-
-    </div>
-
+    <title>VIDEX - поставки из Китая</title>
     
-  </body>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/videx.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600&subset=cyrillic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Arimo:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    VIDEX<sup><span class="glyphicon glyphicon-registration-mark reg-mark" aria-hidden="true"></span></sup> LED
+                </a>
+            </div>
+
+            <!-- Nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">Продукция</a>
+                    </li>                   
+                    <li>
+                        <a class="page-scroll" href="#tech">Технология</a>
+                    </li>
+                     <li>
+                        <a class="page-scroll" href="#about1">О нас</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#delivery">Доставка</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#buy">Оформить заказ</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Section-->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 col-md-offset-7">
+                        <h1 class="brand-heading">Светодиодные лампы VIDEX<sup>
+                        <span class="glyphicon glyphicon-registration-mark reg-mark"></span></sup></h1>
+                        <p class="intro-text">Прямые поставки <br> по оптовым ценам!</p>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Product Section -->
+    <section id="about" class="container content-section">
+        <div class="row">
+            <div class="col-lg-12">
+               <h2 class="text-center">Наша продукция</h2>
+               <hr class="hr-orange">
+               <p>Светодиодные лампы VIDEX<sup><span class="glyphicon glyphicon-registration-mark reg-mark"></span></sup> 
+               обладают высоким качеством, 
+               имеют большой ресурс эксплуатации,
+               не содержат вредных веществ, имеют мгновенный старт, 
+               без мерцаний, и, безусловно, прекрасный дизайн. 
+               И всё это по оптовым ценам с гарантией!</p>
+            </div>
+        </div>
+        
+        <div class="row">           
+            <div class="col-lg-4">
+                <img src="img/led01.jpg" alt="..." class="img-thumbnail img-responsive center-block" 
+                onmouseover="this.src='img/led02.jpg'" onmouseout="this.src='img/led01.jpg'">
+                <table class="table">
+                    <thead>
+                        <tr class="active">
+                            <th>Модель, артикул</th>
+                            <th>Мощность, Вт</th>
+                            <th>Температура света</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>VL-A60b-09273</td>
+                            <td>9 Вт</td>
+                            <td>3000К/теплый</td>
+                        </tr>
+                        <tr class="active">
+                            <th>Угол рассеивания</th>
+                            <th>Световой поток, Лм</th>
+                            <th>Эффективность, Лм/Вт</th>
+                        </tr>
+                        <tr>
+                            <td>180&deg</td>
+                            <td>640 Лм</td>
+                            <td>72 Лм/Вт</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="col-lg-4">
+                <img src="img/led11.jpg" alt="..." class="img-thumbnail img-responsive center-block"
+                onmouseover="this.src='img/led12.jpg'" onmouseout="this.src='img/led11.jpg'">
+                <table class="table">
+                    <thead>
+                        <tr class="active">
+                            <th>Модель, артикул</th>
+                            <th>Мощность, Вт</th>
+                            <th>Температура света</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>VL-MR16-05534</td>
+                            <td>5 Вт</td>
+                            <td>4100К/белый</td>
+                        </tr>
+                        <tr class="active">
+                            <th>Угол рассеивания</th>
+                            <th>Световой поток, Лм</th>
+                            <th>Эффективность, Лм/Вт</th>
+                        </tr>
+                        <tr>
+                            <td>180&deg</td>
+                            <td>540 Лм</td>
+                            <td>108 Лм/Вт</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="col-lg-4">
+                <img src="img/led21.jpg" alt="..." class="img-thumbnail img-responsive center-block"
+                onmouseover="this.src='img/led22.jpg'" onmouseout="this.src='img/led21.jpg'">
+                <table class="table">
+                    <thead>
+                        <tr class="active">
+                            <th>Модель, артикул</th>
+                            <th>Мощность, Вт</th>
+                            <th>Температура света</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>VL-T8b-09066</td>
+                            <td>9 Вт</td>
+                            <td>6200К</td>
+                        </tr>
+                        <tr class="active">
+                            <th>Длина лампы</th>
+                            <th>Световой поток, Лм</th>
+                            <th>Эффективность, Лм/Вт</th>
+                        </tr>
+                        <tr>
+                            <td>0,6 м</td>
+                            <td>720 Лм</td>
+                            <td>80 Лм/Вт</td>
+                        </tr>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-left">
+                <p>Узнать о ценах и остальных товарах можно в нашем каталоге.</p>
+            </div>
+            <div class="col-lg-6 col-lg-offset-3 text-center">
+                <a href="catalog-short.pdf" target="_blank" class="btn btn-default btn-oran-thin btn-lg"><i class="fa fa-file-pdf-o"></i> Каталог</a>
+                <!-- <a href="#tech" class="btn btn-default btn-oran-thin btn-lg page-scroll"><i class="fa fa-cog"></i> Технология </a> -->
+                <a href="#buy" class="btn btn-default btn-oran-thin btn-lg page-scroll"><i class="fa fa-cart-arrow-down"></i> 
+                Заказать сейчас!</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Technology Section -->
+    <section id="tech" class="tech-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center header-lamp">
+                        <h1>Технология <span class="text-grad">LED</span> ламп 
+                        VIDEX<sup><span class="glyphicon glyphicon-registration-mark reg-mark" aria-hidden="true"></span></sup></h1>
+                    </div>
+                    <div class="col-md-6 col-xs-12">
+                        <div class="col-md-12 col-xs-12 center-block">
+                            <table class="lamp-percents">
+                                <tr>
+                                    <td rowspan="2" class="td-digits">90%</td>
+                                    <td>экономия</td>
+                                </tr>
+                                <tr>
+                                    <td>энергии</td>
+                                </tr>
+                            </table>
+                        </div>
+                        
+                        <div class="col-md-6 col-xs-6 header-lamp">
+                            <ul class="list-unstyled ul-lamp">
+                                <li>
+                                <span class="lead-lamp">1. Матовый рассеиватель</span>
+                                Обеспечивает равномерное распределение света по всей области освещения
+                                </li>
+                                <li>
+                                <span class="lead-lamp">2. Плата со светодиоидами EPISTAR</span>
+                                Свет, который излучается чипами EPISTAR, максимально приближен к его 
+                                естественному источнику - солнцу
+                                </li>
+                                <li>
+                                <span class="lead-lamp">3. Электронная плата контроллера (драйвер)</span>
+                                Обеспечивает стабильную работу при нестабильном напряжении сети
+                                </li>
+                                <li>
+                                <span class="lead-lamp">4. Массивный алюминиевый радиатор в корпусе из 
+                                термопроводящего пластика</span>
+                                Масса радиатора оптимизирована для эффективного отвода тепла, 
+                                нежелательного для светодиодов и драйвера
+                                </li>
+                                <li>
+                                <span class="lead-lamp">5. Алюминиевый корпус цоколя</span>
+                                Замена старой лампы на светодиодную не требует дополнительных 
+                                манипуляция с вашим светильником
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-xs-6">
+                            <img src="img/lamp2.png" alt="" class="lamp img-responsive">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xs-12">
+                        <p>Светодиодные лампы VIDEX<sup><span class="glyphicon glyphicon-registration-mark reg-mark" aria-hidden="true"></span></sup> 
+                        обладают рядом преимущсеств, недоступных другим видам ламп</p>
+                        <div class="div-ul-icons pull-right">
+                            <ul class="list-unstyled icons-list header-lamp">
+                                <li class="li-energy">
+                                <span class="lead-advant">Низкое энергопотребление</span>
+                                Одна светодиодная лампа 
+                                VIDEX<sup><span class="glyphicon glyphicon-registration-mark reg-mark" aria-hidden="true"></span></sup> 
+                                потребляет в 2 раза меньше энергии, чем люминисцентная, и в 10 раз меньше, 
+                                чем лампа накаливания.
+                                </li>
+                                
+                                <li class="li-fifty">
+                                <span class="lead-advant">Срок службы</span>
+                                Светодиодная лампа VIDEX<sup><span class="glyphicon glyphicon-registration-mark reg-mark" aria-hidden="true"></span></sup>
+                                служит в 5 раз дольше, чем лампа накаливания. Общее время работы лампы до
+                                 50 000 часов! Вы на долгое время забудете о замене лампы.
+                                </li>
+                                
+                                <li class="li-range">
+                                <span class="lead-advant">Диапазон рабочего напряжения</span>
+                                В отличие от других типов ламп, светодиодная лампа 
+                                VIDEX<sup><span class="glyphicon glyphicon-registration-mark reg-mark" aria-hidden="true"></span></sup>
+                                может работать в диапазоне от 175 до 250 вольт, что гарантирует непрерывную 
+                                работу при перепадах напряжения. Со светодиодной лампой 
+                                VIDEX<sup><span class="glyphicon glyphicon-registration-mark reg-mark" aria-hidden="true"></span></sup>
+                                вы не заметите перепадов напряжения.
+                                </li>
+                                
+                                <li class="li-stabil">
+                                <span class="lead-advant">Стабильная работа</span>
+                                Частые включения/выключения являются основной причиной перегорания лампы 
+                                накаливания или компактной люминисцентной лампы. Светодиодная лампа 
+                                VIDEX<sup><span class="glyphicon glyphicon-registration-mark reg-mark" aria-hidden="true"></span></sup> лишена 
+                                этого недостатка.
+                                </li>
+                                
+                                <li class="li-blink">
+                                <span class="lead-advant">Отсутствие мерцания</span>
+                                Присущий люминисцентным лампам эффект мерцания, часто не видимый глазом, 
+                                и приводящий к утомлению, полностью отстутствует в светодиодных лампах 
+                                VIDEX<sup><span class="glyphicon glyphicon-registration-mark reg-mark" aria-hidden="true"></span></sup>
+                                </li>
+                                
+                                <li class="li-ecol">
+                                <span class="lead-advant">Экологичность</span>
+                                Благдаря своей конструкции, светодиодные лампы являются наиболее безопасными 
+                                среди всех существующих видов ламп. Лампы 
+                                VIDEX<sup><span class="glyphicon glyphicon-registration-mark reg-mark" aria-hidden="true"></span></sup> 
+                                не содержат ртути и других вредных веществ, не генерируют ультрафиолетовое 
+                                излучения, привлекающее насекомых и безопасны для окружающей среды.
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                    <div class="col-lg-12 text-center space-50">
+                        <p>Не откладывайте на завтрашний день, начните экономить прямо сегодня!</p>
+                        <a href="#buy" class="btn btn-default btn-oran-wh btn-lg page-scroll">Купить сейчас!</a>
+                    </div>
+                    
+                </div>
+            </div>
+    </section>
+    
+    <!-- Guarantee Section -->
+    <section id="guarantee" class="guarantee-section">
+        <div class="container">
+            <div class="col-lg-6 col-xs-6">
+                <h3 class="light">Гарантия от производителя!</h3>
+                <p class="p-guarantee-sm">На лампы существует гарантия от производителя. На упаковке каждой лампы вы можете найти обозначения срока гарантия.</p>
+                <ul class="list-unstyled">
+                    <li><i class="fa fa-lightbulb-o"></i>
+Для ламп премиум класса (тёмные упаковки) - 3 года гарантия.</li>
+                    <li><i class="fa fa-lightbulb-o"></i>
+Для ламп эконом класса (светлые упаковки) - 2 года гарантия.</li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-xs-3">
+                <figure>
+                    <img src="img/guarantee-1.png" alt="Гарантия 2 года">
+                    <figcaption>Гарантия 2 года.</figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-3 col-xs-3">
+                <figure>
+                    <img src="img/guarantee-2.png" alt="Гарантия 3 года">
+                    <figcaption>Гарантия 3 года.</figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about1" class="about-section">
+        <div class="container content-section">
+            <div class="row">
+                <div class="col-lg-12 text-center space-50">
+                    <h2>Почему мы?</h2>
+                    <hr class="hr-orange">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1">
+                   
+                    <!-- First Featurette -->
+                    <div class="featurette" id="contact">
+                        <img class="featurette-image img-circle img-responsive pull-right" src="img/about4.jpg">
+                        <h3 class="featurette-heading">Поставки из Китая
+                        <span class="text-muted">По оптовым ценам</span>
+                        </h3>
+                        <p class="lead">Как и все мировые компании, VIDEX производит свою продукцию в Китае.
+                       Доставка непосредственно из Китая, в обход всей известной бюрократии, позволяет нам иметь 
+                       одни из самых низких расценок в пределах стран СНГ. Для оптовых покупателей у нас 
+                       также есть <span class="orange">специальные цены</span>!</p>
+                    </div>
+                    
+                    <hr class="featurette-divider">
+                    
+                    <!-- Second Featurette -->
+                    <div class="featurette" id="services">
+                        <img id="img" class="featurette-image img-circle img-responsive pull-left" src="img/about2.jpg">
+                        <h3 class="featurette-heading">Быстрая доставка
+                        <span class="text-muted">В течение 1-2 дней</span>
+                        </h3>
+                        <p class="lead">Наша компания осуществляет доставку по Украине любыми доступными 
+                        сервисами: НоваяПочта, Autolux, Intime и др. на ваш выбор. 
+                        В зависимости от выбранно сервиса доставка 
+                        занимает от одного до нескольких рабочих дней.</p>
+                    </div>
+                    
+                    <hr class="featurette-divider">
+                    
+                    <!-- Third Featurette -->
+                    <div class="featurette" id="contact">
+                        <img class="featurette-image img-circle img-responsive pull-right" src="img/about3.jpg">
+                        <h3 class="featurette-heading">Простая оплата
+                        <span class="text-muted">Любым доступным способом</span>
+                        </h3>
+                        <p class="lead">После оставленной заявки, менеджер связывается с Вами и согласовывает 
+                        все нюансы. Возможна оплата практически любым из возможных способом: Приват24, 
+                        карты VISA и MaserCard, PayPal, Интеркасса, наложный платеж и многое другое.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    
+     <!-- Delivery Section -->
+    <section id="delivery" class="delivery-section">
+        <div class="container content-section">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Как мы работаем</h2>
+                    <hr class="hr-orange">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <img class="img-circle" src="img/work1.jpg">
+                        <h3>Заявка</h3>
+                        <p class="text-muted">Вы оставляете Ваши контактные данные на нашем сайте.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <img class="img-circle" src="img/work2.jpg">
+                        <h3>Звонок</h3>
+                        <p class="text-muted">Наш менеджер связывается с Вами и консультирует по всем вопросам.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <img class="img-circle" src="img/work3.jpg">
+                        <h3>Доставка</h3>
+                        <p class="text-muted">Мы высылаем наш товар с помощью популярных служб доставки.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <img class="img-circle" src="img/work4.jpg">
+                        <h3>Оплата</h3>
+                        <p class="text-muted">Вы оплачиваете Вашу покупку при получении товара.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+	<!-- Buy Section -->
+	<section id="buy" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Оформить заказ</h2>
+                    <hr class="hr-orange">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>ФИО</label>
+                                <input type="text" class="form-control" placeholder="ФИО" id="name" required data-validation-required-message="Введите Ваше имя">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Телефон</label>
+                                <input type="tel" class="form-control" placeholder="Телефон" id="phone" required data-validation-required-message="Введите Ваш телефон.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Город</label>
+                                <input type="text" class="form-control" placeholder="Город" id="city" required data-validation-required-message="Введите Ваш город.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Заказ</label>
+                                <textarea rows="5" class="form-control" placeholder="Заказ" id="message" required data-validation-required-message="Введите Ваш заказ."></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <br>
+                        <div id="success"></div>
+                        <div class="row">
+                            <div class="form-group col-xs-12 text-center">
+                                <button type="submit" class="btn btn-31 btn-31b icon-bulb"> Отправить!</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="row container">
+            <div class="col-lg-5">
+                <div class="footer-info-box clearfix">
+                    <h3><i class="fa fa-map-marker"></i> Адрес:</h3>
+                    <span>Кировоград<br>ул.Будапештская 12</span>
+                </div>
+                <div class="footer-info-box clearfix">
+                    <h3><i class="fa fa-clock-o"></i> Часы:</h3>
+                    <span><strong>Будние дни:</strong> 10:00 - 19:00<br>                   
+                    <strong>Выходные дни:</strong> 10:00 - 17:00</span>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="footer-info-box clearfix">
+                    <h3><i class="fa fa-phone"></i> Телефон:</h3>
+                    <span>095-55-12-700
+                    <br></span>
+                </div>
+                <div class="footer-info-box clearfix">
+                    <h3><i class="fa fa-envelope-o"></i> Email:</h3>
+                    <span>videx@landing4.com</span>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <ul class="list-inline">
+                    <li>
+                        <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#" class="btn-social btn-outline"><i class="fa fa-vk"></i></a>
+                    </li>
+                     <li>
+                        <a href="#" class="btn-social btn-outline"><i class="fa fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery and etc -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="js/videx.js"></script>
+
+</body>
+
 </html>
